@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import {Calculadora} from './Calculadora';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Calculadora/>
   </React.StrictMode>,
   document.getElementById('root')
 );

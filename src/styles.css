@@ -1,0 +1,19 @@
+.padre{
+    display:grid
+  }
+  .botones{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin:0vh 50vw;
+    padding: 0%;
+  }
+  #display{
+    padding: 2px;
+    margin:0vh 50vw;
+    border: 1px solid white;
+    border-radius: 2.5px;
+    color: white;
+    background-color: black;
+  }
+  
+  
