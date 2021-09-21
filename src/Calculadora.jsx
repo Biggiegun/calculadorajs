@@ -36,7 +36,7 @@ export const Calculadora  = () =>{
         LimpiarInput();
         //setValor(eval(valor))
       }else{
-        setValor(eval(valor))
+        setValor((eval(valor)).toString())
       }
       
     }
